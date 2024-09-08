@@ -1,0 +1,20 @@
+{
+  "name": "hapi-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "knex": "^3.1.0",
+    "objection": "^3.1.4",
+    "pg": "^8.12.0"
+  }
+}
